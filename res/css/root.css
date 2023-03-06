@@ -1,0 +1,16 @@
+:root {
+    --main-blue: #217BF4;
+    --section-blue: #E5F0FD;
+    --light-blue: #D4E7FE;
+
+    --rounded-icon: 24px;
+    --shadow-icon: 0 10px 22px -2px;
+
+    --rounded-card: 14px;
+    --shadow-card: 0px 26px 49px 0 rgba(146, 165, 184, 0.14);
+    --border-card: 2px solid rgba(243, 243, 243, 0.5);
+
+    --rounded-input: 12px;
+    
+    --background-linear: linear-gradient(180deg, #fff, #D4E7FE);
+}

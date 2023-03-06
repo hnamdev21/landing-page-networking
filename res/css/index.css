@@ -1,0 +1,710 @@
+#search-checkbox,
+#menu-checkbox {
+    display: none;
+}
+
+#header-page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    height: 90px;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 1px #f3f3f3;
+}
+
+#header-page .inner {
+    column-gap: 50px;
+}
+
+#header-page .logo {
+    width: 40px;
+    height: 40px;
+}
+
+.home-logo {
+    column-gap: 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wrapper-logo {
+    width: 140px;
+}
+
+.wrapper-nav {
+    column-gap: 24px;
+}
+
+.wrapper-other-opt {
+    margin-left: auto;
+    column-gap: 16px;
+}
+
+.search-box {
+    width: 200px;
+    column-gap: 8px;
+    border-bottom: 0.5px solid #656464;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    font-size: 16px;
+    transition: all 0.5s linear;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-input::placeholder {
+    font-size: 16px;
+    color: #656464;
+}
+
+.login-btn {
+    padding: 12.5px 40px;
+    background-color: var(--main-blue);
+    border-radius: 10px;
+}
+
+.login-btn a {
+    color: #fff;
+}
+
+.wrapper-menu-icon {
+    display: none;
+}
+
+#main-page {
+    width: 100vw;
+}
+
+.hero-section {
+    margin-top: 100px;
+    padding: 20px 0;
+    background-image: var(--background-linear);
+}
+
+.hero-section .inner {
+    height: 550px;
+}
+
+.wrapper-content {
+    width: 515px;
+}
+
+.hero-section .community-btn {
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background-color: var(--light-blue);
+}
+
+.hero-section .community-btn a {
+    color: var(--main-blue)
+}
+
+.wrapper-hero-image {
+    width: 585px;
+}
+
+.main-content h1 {
+    margin-top: 8px;
+}
+
+.main-content p {
+    margin-top: 10px;
+}
+
+.footer-content {
+    margin-top: 20px;
+    column-gap: 16px;
+}
+
+.more-btn,
+.invite-btn {
+    border-radius: 8px;
+    width: 160px;
+    height: 60px;
+}
+
+.more-btn {
+    background-color: var(--main-blue);
+}
+
+.more-btn a {
+    color: #fff;
+    padding: 20px 30px;
+}
+
+.invite-btn {
+    background-color: transparent;
+    border: 0.5px solid var(--main-blue);
+}
+
+.invite-btn a {
+    color: var(--main-blue);
+    padding: 20px 30px;
+}
+
+.about-section .inner {
+    height: 560px;
+    padding: 30px 0;
+}
+
+.about-section .wrapper-about-image {
+    width: 585px;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 70px);
+    gap: 14px 18px;
+}
+
+.about-section .wrapper-content li i {
+    margin-right: 8px;
+}
+
+.about-section .wrapper-about-image div{
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about-section .wrapper-about-image img {
+    border-radius: inherit;
+}
+
+.about-section .item-1 {
+    grid-row: 2/6;
+    grid-column: 1/2;
+}
+
+.about-section .item-2 {
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+
+.about-section .item-3 {
+    grid-row: 4/7;
+    grid-column: 2/3;
+}
+
+.achivement-section .inner {
+    height: 500px;
+    padding: 20px 0;
+    column-gap: 20px;
+}
+
+.achivement-section .wrapper-cards {
+    column-gap: 16px;
+}
+
+.achivement-section .card {
+    width: 340px;
+    height: 340px;
+    border-radius: var(--rounded-card);
+    border: var(--border-card);
+    padding: 20px;
+    background-color: #fff;
+    transition: all 0.2s linear;
+}
+
+.achivement-section .card:hover {
+    box-shadow: var(--shadow-card);
+}
+
+.achivement-section .header-card,
+.achivement-section .main-card,
+.achivement-section .footer-card {
+    height: 33.33333%;
+    width: 100%;
+}
+
+.achivement-section .trophy-icon,
+.achivement-section .star-icon {
+    margin-right: 8px;
+    color: var(--main-blue)
+}
+
+.achivement-section .avatar {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.achivement-section .avatar:nth-child(2),
+.achivement-section .avatar:nth-child(3) {
+    position: relative;
+    left: -5px;
+}
+
+.achivement-section .avatar:nth-child(3) {
+    left: -10px;
+}
+
+.member-amout {
+    margin-right: 4px;
+}
+
+.achivement-section .card-sub-achivement {
+    margin-top: 20px;
+}
+
+.achivement-section .card-link i {
+    margin-left: 8px;
+}
+
+.discover-btn {
+    width: 190px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--main-blue);
+    box-shadow: 0 10px 22px -6px rgba(33, 123, 244, 0.26);
+}
+
+.discover-btn a {
+    padding: 20px;
+    color: #fff;
+}
+
+.discover-btn i {
+    margin-left: 8px;
+}
+
+
+.features-section {
+    background-image: linear-gradient(180deg, #fff, var(--section-blue),var(--light-blue), var(--section-blue),#fff);
+}
+
+.features-section .inner {
+    height: 980px;
+    padding: 50px 0;
+}
+
+.team-section .wrapper-title,
+.features-section .wrapper-title{
+    width: 460px;
+    margin: 0 auto;
+}
+
+.team-section .sub-title,
+.features-section .sub-title {
+    font-weight: 450;
+}
+
+.team-section .title--md,
+.features-section .title--md {
+    padding: 10px 0;
+}
+
+.wrapper-features {
+    margin-top: 20px;
+    columns: 2;
+    row-gap: 44px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wrapper-features .feature {
+    width: 520px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 14px;
+    transition: all 0.2s linear;
+}
+
+.wrapper-features .feature:hover {
+    box-shadow: var(--shadow-card);
+}
+
+.wrapper-features .feature-icon {
+    width: 66px;
+    height: 66px;
+    border-radius: var(--rounded-icon);
+}
+
+.wrapper-features .feature-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.wrapper-features .feature:nth-child(1) .feature-icon {
+    background-color: var(--main-blue);
+    box-shadow: var(--shadow-icon) rgba(109, 171, 255, 0.36);
+}
+.wrapper-features .feature:nth-child(2) .feature-icon {
+    background-color: #FF858A;
+    box-shadow: var(--shadow-icon) rgba(248, 87, 94, 0.3);
+}
+.wrapper-features .feature:nth-child(3) .feature-icon {
+    background-color: #FFD085;
+    box-shadow: var(--shadow-icon) rgba(250, 186, 84, 0.3);
+}
+.wrapper-features .feature:nth-child(4) .feature-icon {
+    background-color: var(--main-blue);
+    box-shadow: var(--shadow-icon) rgba(109, 171, 255, 0.36);
+}
+.wrapper-features .feature:nth-child(5) .feature-icon {
+    background-color: #FF858A;
+    box-shadow: var(--shadow-icon) rgba(248, 87, 94, 0.3);
+}
+.wrapper-features .feature:nth-child(6) .feature-icon {
+    background-color: #FFD085;
+    box-shadow: var(--shadow-icon) rgba(250, 186, 84, 0.3);
+}
+
+.wrapper-features .feature-info {
+    width: 70%;
+}
+
+.wrapper-features .feature-title {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.team-section .inner {
+    height: 600px;
+}
+
+.team-section .wrapper-btn {
+    margin-top: 10px;
+    width: 460px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: var(--light-blue);
+}
+
+.team-section .type-btn {
+    width: 140px;
+    height: 55px;
+    border-radius: 8px;
+    line-height: 55px;
+    cursor: pointer;
+}
+
+.team-section .type-btn:hover {
+    background-color: var(--section-blue);
+}
+
+.team-section .type-btn.active {
+    background-color: var(--main-blue);
+    color: #fff;
+}
+
+.team-section .wrapper-members {
+    margin-top: 30px;
+}
+
+.team-section .member-card {
+    width: 270px;
+    height: 310px;
+    border-radius: 14px;
+    border: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+
+.team-section .member-card:hover {
+    box-shadow: var(--shadow-card);
+}
+
+.team-section .header-card {
+    height: 60%;
+    padding-top: 20px;
+}
+
+.team-section .main-card {
+    height: 30%;
+    padding-top: 30px;
+}
+
+.team-section .footer-card {
+    height: 10%;
+}
+
+.team-section .wrapper-member-image {
+    position: relative;;
+    width: 166px;
+    height: 166px;
+    border: 2px solid #FFAF2E;
+}
+
+.team-section .wrapper-member-image::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 15px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.team-section .wrapper-member-image::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    width: 25px;
+    height: 15px;
+    background-color: #fff;
+}
+
+.team-section .mask {
+    overflow: hidden;
+    width: 155px;
+    height: 155px;
+    border: 2px solid #fff;
+    background-color: var(--light-blue);
+}
+
+.team-section .member-name {
+    font-weight: 450;
+}
+
+.cta-section {
+    background-color: var(--section-blue);
+}
+
+.cta-section .inner {
+    height: 475px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.cta-section .wrapper-content {
+    width: 700px;
+}
+
+.cta-section .wrapper-brand {
+    width: 40px;
+    height: 40px;
+}
+
+.cta-section .wrapper-brand img {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+.cta-section .opa-text {
+    color: #ccc;
+    font-size: 14px;
+    display: block;
+}
+
+.cta-section .brand-name {
+    display: block;
+    color: #000;
+}
+
+.cta-section .app-store-btn,
+.cta-section .chplay-btn {
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.cta-section .app-store-btn {
+    background-color: #fff;
+}
+
+.cta-section .chplay-btn {
+    background-color: #000;
+}
+
+.cta-section .chplay-btn .brand-name {
+    color: #fff;
+}
+
+.blog-section .inner {
+    position: relative;
+    height: 670px;
+    padding-top: 30px;
+}
+
+.blog-section .sub-title {
+    font-weight: 400;
+}
+
+.blog-section .wrapper-blogs {
+    margin-top: 20px;
+}
+
+.blog-section .blog {
+    height: 450px;
+    width: 350px;
+}
+
+.blog-section .header-card {
+    height: 350px;
+    width: 350px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.blog-section .wrapper-blog-image {
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+.blog-section .main-card {
+    height: 80px;
+    width: 100%;
+    padding: 10px 0 10px 80px;
+    position: relative;
+}
+
+.blog-section .main-card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    width: 50px;
+    height: 2px;
+    background-color: #FFAF2E;
+}
+
+.blog-section .blog-title {
+    font-weight: 400;
+}
+
+.blog-section .card-link:hover {
+    color: var(--main-blue)
+}
+
+.blog-section i {
+    margin-left: 10px;
+}
+
+.blog-section .wrapper-decor {
+    position: absolute;
+    z-index: -2;
+    width: 150px;
+    height: 150px;
+}
+
+.blog-section .wrapper-decor:first-child {
+    top: 80px;
+    left: -35px;
+}
+
+.blog-section .wrapper-decor:last-child {
+    bottom: 40%;
+    right: -30px;
+}
+
+#footer-page {
+    margin-top: 30px;
+    background-color: #2B2B39;
+    position: relative;
+}
+
+#footer-page .inner {
+    height: 485px;
+    padding-top: 30px;
+}
+
+#footer-page .bot-footer .inner {
+    height: 100%;
+    padding: 0;
+}
+
+.top-footer {
+    height: 400px;
+    padding-top: 30px;
+    column-gap: 20px;
+}
+
+.top-footer .wrapper-sitemap {
+    width: 70%;
+}
+
+.top-footer .wrapper-sitemap nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.top-footer .form-title,
+.top-footer .sitemap-title {
+    font-weight: 500;
+}
+
+.top-footer .form-desc,
+.top-footer .form-title,
+.sitemap-title,
+.sitemap-link {
+    color: #fff;
+}
+
+.top-footer .wrapper-subscribe-form {
+    padding: 10px 0 0 80px;
+}
+
+.top-footer .form-desc {
+    margin-top: 20px;
+}
+
+.top-footer .subscribe-form {
+    margin-top: 20px;
+}
+
+.subscribe-email-input {
+    width: 100%;
+    height: 48px;
+    padding: 0 100px 0 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.subscribe-email-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 14px;
+    border-radius: 0 10px 10px 0;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bot-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background-color: #20202D;
+}
+
+.bot-footer .desc{
+    color: #fff;
+}
+
+.bot-footer .logo {
+    width: 60px;
+    height: 60px;
+}
+
+.bot-footer .wrapper-logo a {
+    column-gap: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wrapper-social-media {
+    column-gap: 5px;
+}
+
+.wrapper-social-media a {
+    color: #fff;
+}
